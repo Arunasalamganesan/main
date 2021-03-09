@@ -16,6 +16,7 @@ public class MYSQL1 {
             obj3.close();
             ResultSet obj4 = obj2.executeQuery("select * from employeePackage");
       while (obj4.next()){
+      
           System.out.println(obj4.getString(1) + " " + obj4.getString(2));
       }
             obj4.close();
